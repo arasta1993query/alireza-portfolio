@@ -4,19 +4,19 @@ Personal portfolio and résumé site built with Vue 3, TypeScript, and Vite. The
 
 ## Run locally
 
-Use Node.js 20.19+ or 22.12+.
+Use Node.js 20.19+ or 22.12+ and pnpm 12.14.0.
 
 ```sh
-npm ci
-npm run dev
+pnpm install --frozen-lockfile
+pnpm run dev
 ```
 
 ## Verify and build
 
 ```sh
-npm run typecheck
-npm run build
-npm run preview
+pnpm run typecheck
+pnpm run build
+pnpm run preview
 ```
 
 Publish the generated `dist/` directory to any static host.
