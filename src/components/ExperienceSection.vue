@@ -11,7 +11,6 @@ import SectionLabel from './SectionLabel.vue'
         <SectionLabel number="02">CAREER</SectionLabel>
         <h2 id="experience-title">Experience<span>.</span></h2>
         <p class="section-intro">From ticketing and video streaming to commerce platforms and client delivery.</p>
-        <a class="text-link" href="#resume">Download a résumé <AppIcon name="down" /></a>
       </div>
 
       <ol class="timeline">

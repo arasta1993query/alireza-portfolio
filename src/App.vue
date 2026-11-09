@@ -4,7 +4,6 @@ import BrandMark from './components/BrandMark.vue'
 import ContactSection from './components/ContactSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
 import IntroSection from './components/IntroSection.vue'
-import ResumeSection from './components/ResumeSection.vue'
 import ToolkitSection from './components/ToolkitSection.vue'
 import WorkSection from './components/WorkSection.vue'
 import { profile } from './content/portfolio'
@@ -22,7 +21,6 @@ import { profile } from './content/portfolio'
       <nav class="main-nav" aria-label="Main navigation">
         <a href="#work">Work</a>
         <a href="#experience">Experience</a>
-        <a href="#resume">Résumé</a>
       </nav>
       <a class="button button-header" href="#contact">Get in touch <AppIcon name="out" /></a>
     </div>
@@ -33,7 +31,6 @@ import { profile } from './content/portfolio'
     <WorkSection />
     <ExperienceSection />
     <ToolkitSection />
-    <ResumeSection />
     <ContactSection />
   </main>
 

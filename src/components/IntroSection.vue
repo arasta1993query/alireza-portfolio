@@ -15,7 +15,7 @@ const portrait = './media/alireza-portrait.webp'
         <p class="hero-summary">{{ profile.summary }}</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#work">Explore my work <AppIcon name="down" /></a>
-          <a class="button button-outline" href="#resume">Get my résumé <AppIcon name="download" /></a>
+          <a class="button button-outline" href="#experience">View experience <AppIcon name="down" /></a>
         </div>
       </div>
 

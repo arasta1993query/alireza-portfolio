@@ -82,12 +82,14 @@ export const experience: Job[] = [
     role: 'Senior Full-Stack Developer',
     dates: 'Nov 2022 — Sep 2026',
     description: 'Led frontend architecture for a phased storefront upgrade, shipped the merchant app independently, migrated an Angular back office to React, and built a .NET reservation system.',
+    url: 'https://okala.com',
   },
   {
     company: 'Gapfilm',
     role: 'Front-End Developer',
     dates: 'Oct 2020 — Oct 2022',
     description: 'Developed a server-rendered Vue and Nuxt streaming frontend and adapted it for the constraints of Samsung Tizen TVs.',
+    url: 'https://gapfilm.ir',
   },
   {
     company: 'Irantic',
@@ -106,17 +108,4 @@ export const skills = [
 export const background = [
   { name: 'Education', items: ['B.Sc. Chemistry, Shahid Beheshti University · 2017', 'React Bootcamp, MAPSAHR Group · 2021'] },
   { name: 'Languages', items: ['Persian · Native', 'English · Professional working proficiency'] },
-]
-
-export const resumes = [
-  {
-    title: 'Frontend résumé',
-    file: 'Alireza_Asghari_Tabrizi_Frontend_Resume.pdf',
-    description: 'React, Next.js and TypeScript',
-  },
-  {
-    title: 'Full-stack résumé',
-    file: 'Alireza_Asghari_Tabrizi_Fullstack_Resume.pdf',
-    description: 'React, Nuxt and .NET',
-  },
 ]

@@ -26,4 +26,4 @@ Publish the generated `dist/` directory to any static host.
 - Profile, projects, experience, and skills are in `src/content/portfolio.ts`.
 - Vue sections and shared UI are in `src/components/`.
 - Styles are in `src/styles.css`.
-- Résumés, images, and icons are in `public/`.
+- Images and icons are in `public/`.
