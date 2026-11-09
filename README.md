@@ -1,11 +1,29 @@
 # Alireza Asghari Tabrizi
 
-A static English-language portfolio and résumé site. The complete site lives in `dist/`.
+Personal portfolio and résumé site built with Vue 3, TypeScript, and Vite. The production build prerenders the page into HTML for search engines and static hosting.
 
-Run a local preview from this directory with Python 3:
+## Run locally
+
+Use Node.js 20.19+ or 22.12+.
 
 ```sh
-python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
+npm ci
+npm run dev
 ```
 
-Open `http://127.0.0.1:4173`. To deploy to a static host, use `dist/` as the publish directory. Page content is in `dist/index.html`, with styles in `dist/styles.css` and the two PDFs in `dist/resumes/`.
+## Verify and build
+
+```sh
+npm run typecheck
+npm run build
+npm run preview
+```
+
+Publish the generated `dist/` directory to any static host.
+
+## Edit the site
+
+- Profile, projects, experience, and skills are in `src/content/portfolio.ts`.
+- Vue sections and shared UI are in `src/components/`.
+- Styles are in `src/styles.css`.
+- Résumés, images, and icons are in `public/`.
