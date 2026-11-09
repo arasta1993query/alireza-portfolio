@@ -4,7 +4,7 @@ Personal portfolio and résumé site built with Vue 3, TypeScript, and Vite. The
 
 ## Run locally
 
-Use Node.js 20.19+ or 22.12+ and pnpm 12.14.0.
+Use Node.js 26 LTS and pnpm 12.14.0.
 
 ```sh
 pnpm install --frozen-lockfile
