@@ -20,7 +20,9 @@ import TagList from './TagList.vue'
         <h3>{{ featuredProject.name }}</h3>
         <p>{{ featuredProject.description }}</p>
         <TagList :items="featuredProject.technologies" />
-        <a class="text-link" :href="featuredProject.url">Visit {{ featuredProject.name }} <AppIcon name="out" /></a>
+        <a class="text-link" :href="featuredProject.url" target="_blank" rel="noopener noreferrer">
+          Visit {{ featuredProject.name }} <AppIcon name="out" />
+        </a>
       </div>
 
       <figure class="feature-visual">
@@ -48,7 +50,7 @@ import TagList from './TagList.vue'
           <h3>{{ project.name }}</h3>
           <p>{{ project.description }}</p>
           <TagList :items="project.technologies" />
-          <a v-if="project.url" class="text-link" :href="project.url">
+          <a v-if="project.url" class="text-link" :href="project.url" target="_blank" rel="noopener noreferrer">
             Read the case study <AppIcon name="out" />
           </a>
         </div>

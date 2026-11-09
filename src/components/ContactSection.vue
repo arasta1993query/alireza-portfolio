@@ -13,8 +13,12 @@ import SectionLabel from './SectionLabel.vue'
       <p>I’m based in Muscat and open to international remote roles and B2B contracts.</p>
       <div class="contact-actions">
         <a class="button button-contact" :href="`mailto:${profile.email}`">{{ profile.email }} <AppIcon name="out" /></a>
-        <a class="contact-social" :href="profile.linkedin">LinkedIn <AppIcon name="out" /></a>
-        <a class="contact-social" :href="profile.github">GitHub <AppIcon name="out" /></a>
+        <a class="contact-social" :href="profile.linkedin" target="_blank" rel="noopener noreferrer">
+          LinkedIn <AppIcon name="out" />
+        </a>
+        <a class="contact-social" :href="profile.github" target="_blank" rel="noopener noreferrer">
+          GitHub <AppIcon name="out" />
+        </a>
       </div>
       <div class="contact-mark" aria-hidden="true"><BrandMark /></div>
     </div>

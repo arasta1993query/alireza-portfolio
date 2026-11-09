@@ -18,7 +18,9 @@ import SectionLabel from './SectionLabel.vue'
           <p class="job-dates">{{ job.dates }}</p>
           <div>
             <h3>{{ job.role }}</h3>
-            <a v-if="job.url" class="job-company" :href="job.url">{{ job.company }} <AppIcon name="out" /></a>
+            <a v-if="job.url" class="job-company" :href="job.url" target="_blank" rel="noopener noreferrer">
+              {{ job.company }} <AppIcon name="out" />
+            </a>
             <p v-else class="job-company">{{ job.company }}</p>
             <p class="job-description">{{ job.description }}</p>
           </div>
